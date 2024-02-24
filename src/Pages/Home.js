@@ -18,7 +18,7 @@ function Home() {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const response = await axios.get(`https://dummyapi.online/api/blogposts?_page=${currentPage}&_limit=${postsPerPage}`);
+                const response = await axios.get(`https://dummyapi.online/api/blogposts?_page=${currentPage}`);
                 setBlogPosts(prevPosts => [...prevPosts, ...response.data]);
                 setRecords(prevRecords => [...prevRecords, ...response.data]);
                 setHasMore(response.data.length > 0);
