@@ -12,7 +12,7 @@ function PostDetail() {
                 setBlogDetail(res.data)
             )
             .catch(err => console.log(err))
-    }, []);
+    }, [id]);
     return (
         <>
             <div className="blog-container1">
