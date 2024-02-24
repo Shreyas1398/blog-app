@@ -8,7 +8,7 @@ function Home() {
     const [currentPage, setCurrentPage] = useState(1);
     const [loading, setLoading] = useState(false);
     const [hasMore, setHasMore] = useState(true);
-    const [postsPerPage] = useState(8);
+    // const [postsPerPage] = useState(8);
     const [records, setRecords] = useState([]);
 
     const observer = useRef();
