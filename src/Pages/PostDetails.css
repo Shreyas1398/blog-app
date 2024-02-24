@@ -33,3 +33,11 @@ h3{
     margin-left: 80px;
     margin-right: 80px;
   }
+
+.back-button {
+  display: flex ;
+  color: rgb(98, 150, 145);
+  justify-content: center;
+  text-decoration: solid;
+  font-weight: bold;
+}
